@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muddasar Iqbal | Official Portfolio</title>
+  <meta name="description" content="The personal portfolio of Muddasar Iqbal from Faisalabad, Pakistan, featuring profile, education and live information.">
+  <meta name="keywords" content="Muddasar Iqbal, portfolio, Faisalabad, Pakistan, Cadet College Faisalabad">
+  <meta name="author" content="Muddasar Iqbal">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#6d28d9">
+  <link rel="canonical" href="https://muddasar4311.github.io/sheikh/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://muddasar4311.github.io/sheikh/">
+  <meta property="og:title" content="Muddasar Iqbal | Official Portfolio">
+  <meta property="og:description" content="Explore Muddasar Iqbal's profile, education and live information.">
+  <meta property="og:locale" content="en_US">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <style>
+    :root{--bg:#f4f3ff;--card:rgba(255,255,255,.92);--ink:#191532;--muted:#716d89;--accent:#6d28d9;--accent2:#0891b2;--border:#e7e3f5;--shadow:0 18px 50px rgba(48,25,100,.10);--glow:rgba(109,40,217,.15)}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{min-height:100vh;font-family:'Plus Jakarta Sans',sans-serif;color:var(--ink);line-height:1.7;background:radial-gradient(circle at 5% 0%,#e7dfff 0,transparent 32%),radial-gradient(circle at 95% 10%,#c9f4f4 0,transparent 28%),var(--bg);padding:28px 16px 40px;transition:background .3s,color .3s}
+    [dir="rtl"] body{font-family:'Noto Nastaliq Urdu','Plus Jakarta Sans',sans-serif}
+    .container{max-width:1050px;margin:auto}
+    .navbar{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;padding:16px 20px;background:var(--card);border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow);backdrop-filter:blur(12px);margin-bottom:25px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:1.12rem;color:var(--accent);cursor:pointer}
+    .brand-mark{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:white;box-shadow:0 8px 20px var(--glow)}
+    .nav-links{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+    button,.btn{font:inherit;cursor:pointer;border:1px solid var(--border);border-radius:12px;padding:9px 13px;background:var(--card);color:var(--ink);font-size:.88rem;font-weight:700;transition:transform .2s,background .2s,color .2s}
+    button:hover,.btn:hover{transform:translateY(-2px);border-color:var(--accent)}
+    .btn.active,.primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border-color:transparent}
+    .hero{position:relative;overflow:hidden;text-align:center;padding:48px 25px;background:var(--card);border:1px solid var(--border);border-radius:28px;box-shadow:var(--shadow);margin-bottom:24px}
+    .hero:before{content:"";position:absolute;width:280px;height:280px;right:-120px;top:-145px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent2));opacity:.12}
+    .avatar{display:grid;place-items:center;width:112px;height:112px;border-radius:34px;margin:0 auto 18px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;font-size:2.4rem;font-weight:800;box-shadow:0 15px 35px var(--glow);transform:rotate(-3deg)}
+    h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.2;letter-spacing:-.04em;margin-bottom:12px}
+    .gradient-text{background:linear-gradient(100deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lead{max-width:700px;margin:0 auto 20px;color:var(--muted);font-size:1.03rem}
+    .hero-tags{display:flex;justify-content:center;gap:8px;flex-wrap:wrap}
+    .tag{border:1px solid var(--border);background:var(--glow);padding:6px 11px;border-radius:999px;font-size:.82rem;font-weight:700}
+    .page-section{display:none;animation:fade .35s ease}.page-section.active-page{display:block}
+    @keyframes fade{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+    .section-heading{display:flex;justify-content:space-between;align-items:end;gap:12px;flex-wrap:wrap;margin:30px 0 15px}
+    .section-heading h2{font-size:1.5rem;letter-spacing:-.03em}
+    .section-heading p{color:var(--muted);font-size:.9rem}.live-status-line{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:7px;color:var(--muted);font-size:.78rem}.live-status-line .live-dot{margin-right:0}.status.error{color:#dc2626}.status.success{color:#15803d}
+    .grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:16px}
+    .card{grid-column:span 4;background:var(--card);border:1px solid var(--border);border-radius:22px;padding:22px;box-shadow:var(--shadow);min-width:0;position:relative;overflow:hidden;transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}.card:hover{transform:translateY(-4px);border-color:color-mix(in srgb,var(--accent) 38%,var(--border));box-shadow:0 22px 55px var(--glow)}
+    .card.wide{grid-column:span 8}.card.full{grid-column:1/-1}.stock-card{padding:22px}.tradingview-box{width:100%;height:520px;min-height:420px;border:1px solid var(--border);border-radius:15px;overflow:hidden;background:var(--bg)}.tradingview-box .tradingview-widget-container__widget{width:100%;height:100%}.market-pill{margin-left:auto;display:flex;align-items:center;gap:6px;padding:6px 10px;border:1px solid var(--border);border-radius:999px;color:var(--muted);font-size:.75rem;font-weight:700;white-space:nowrap}.actions a{text-decoration:none;display:inline-flex;align-items:center}.actions a:hover{color:var(--accent)}
+    .card-head{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+    .icon-box{display:grid;place-items:center;flex:0 0 44px;height:44px;border-radius:15px;background:var(--glow);color:var(--accent);font-size:1.1rem}
+    .card h3{font-size:1rem}.subtle{color:var(--muted);font-size:.88rem}
+    .metric{font-size:1.55rem;font-weight:800;line-height:1.35;overflow-wrap:anywhere}
+    .small-metric{font-size:.95rem;font-weight:700;margin-top:5px}
+    .live-label{font-size:.76rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:800}
+    .live-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#22c55e;margin-right:6px;box-shadow:0 0 0 4px rgba(34,197,94,.12)}
+    .status{font-size:.8rem;color:var(--muted);margin-top:8px;overflow-wrap:anywhere}
+    .list{list-style:none;display:grid;gap:12px}
+    .list li{padding:12px 0;border-bottom:1px solid var(--border);line-height:1.5}
+    .list li:last-child{border-bottom:0}
+    .list a{color:var(--ink);font-weight:700;text-decoration:none}
+    .list a:hover{color:var(--accent)}
+    .list small{display:block;color:var(--muted);margin-top:4px}
+    .actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:14px}
+    .info-row{display:flex;gap:12px;align-items:flex-start;padding:13px 0;border-bottom:1px solid var(--border)}
+    .info-row:last-child{border-bottom:0}
+    .info-row i{color:var(--accent);width:20px;margin-top:5px}
+    .footer{text-align:center;color:var(--muted);font-size:.85rem;padding:28px 8px 0}
+    .notice{padding:12px 14px;border-radius:13px;background:var(--glow);color:var(--muted);font-size:.83rem;margin-top:14px}
+
+    @media(max-width:760px){.card,.card.wide{grid-column:span 6}.navbar{justify-content:center}.brand{width:100%;justify-content:center}.nav-links{justify-content:center}}
+    @media(max-width:520px){body{padding:14px 10px 28px}.hero{padding:35px 17px}.card,.card.wide{grid-column:1/-1}.navbar{padding:14px}.nav-links button{padding:8px 10px}.avatar{width:92px;height:92px;border-radius:28px}.tradingview-box{height:440px;min-height:400px}.market-pill{display:none}}
+
+    /* Responsive layout refinements: phones, tablets, laptops and wide screens */
+    html{width:100%;max-width:100%;overflow-x:hidden;scroll-behavior:smooth}
+    body{width:100%;max-width:100%;overflow-x:hidden;-webkit-text-size-adjust:100%}
+    img,iframe,video,canvas,svg{max-width:100%}
+    .container,.page-section,.grid,.card,.hero{min-width:0;max-width:100%}
+    .grid{grid-template-columns:repeat(12,minmax(0,1fr))}
+    .card,.card.wide,.card.full{min-width:0}
+    .metric,.subtle,.status,.section-heading p,.card h3{overflow-wrap:anywhere;word-break:normal}
+    .section-heading{align-items:flex-start}
+    .card-head{min-width:0;flex-wrap:wrap}
+    .tradingview-box{position:relative;max-width:100%;width:100%;min-width:0}
+    .tradingview-box iframe{max-width:100%!important}
+    button,.btn{touch-action:manipulation;min-height:40px}
+    @media (min-width:1100px){.container{max-width:1120px}.grid{gap:18px}.card{padding:24px}}
+    @media (min-width:761px) and (max-width:1024px){body{padding:22px 14px 34px}.container{max-width:100%}.grid{gap:13px}.card{padding:18px}.card,.card.wide{grid-column:span 6}.card.full{grid-column:1/-1}.tradingview-box{height:460px;min-height:360px}}
+    @media (max-width:760px){body{padding:16px 12px 30px}.container{width:100%}.navbar{gap:12px;padding:14px}.nav-links{width:100%;display:flex;justify-content:center;gap:7px}.nav-links button{flex:0 1 auto}.grid{grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}.card,.card.wide{grid-column:span 3}.card.full{grid-column:1/-1}.section-heading h2{font-size:clamp(1.2rem,4vw,1.5rem)}.tradingview-box{height:420px;min-height:340px}}
+    @media (max-width:520px){body{padding:10px 8px 26px}.navbar{border-radius:16px;padding:12px 9px;margin-bottom:16px}.brand{font-size:1rem}.brand-mark{width:38px;height:38px}.nav-links{gap:6px}.nav-links button{font-size:.78rem;padding:8px 9px;min-height:38px}.hero{padding:30px 14px;border-radius:21px;margin-bottom:18px}.hero .lead{font-size:.94rem}.hero-tags{gap:6px}.tag{font-size:.74rem;padding:5px 9px}.section-heading{margin:22px 0 12px}.section-heading p{font-size:.82rem}.grid{grid-template-columns:minmax(0,1fr);gap:11px}.card,.card.wide,.card.full{grid-column:1/-1;padding:17px;border-radius:18px}.card-head{gap:9px}.icon-box{flex-basis:38px;height:38px}.metric{font-size:1.35rem}.tradingview-box{height:380px;min-height:300px}.stock-card{padding:13px!important}.market-pill{display:none}.wa-popup{max-width:calc(100vw - 24px)}}
+    @media (max-width:360px){body{padding-left:6px;padding-right:6px}.nav-links{gap:4px}.nav-links button{font-size:.72rem;padding:7px 7px}.hero{padding:25px 11px}.card,.card.wide,.card.full{padding:14px}.tradingview-box{height:330px;min-height:270px}.metric{font-size:1.2rem}}
+    @media (prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+  </style>
+</head>
+<body>
+<div class="container">
+  <header class="navbar">
+    <div class="brand" onclick="showPage('home')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showPage('home')}" role="button" tabindex="0">
+      <span class="brand-mark">MI</span><span data-en="Muddasar Iqbal" data-ur="مدثر اقبال">Muddasar Iqbal</span>
+    </div>
+    <nav class="nav-links" aria-label="Main navigation">
+      <button class="btn active" id="navHome" onclick="showPage('home')" data-en="Home" data-ur="ہوم">Home</button>
+      <button class="btn" id="navAbout" onclick="showPage('about')" data-en="About" data-ur="تعارف">About</button>
+      <button class="btn" id="navEdu" onclick="showPage('education')" data-en="Education" data-ur="تعلیم">Education</button>
+      <button class="btn" onclick="switchLanguage()" id="langToggleBtn" aria-label="Switch website language">اردو</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="page-home" class="page-section active-page">
+      <div class="hero">
+        <div class="avatar">MI</div>
+        <p class="live-label"><span class="live-dot"></span><span data-en="Personal Portfolio" data-ur="ذاتی پورٹ فولیو">Personal Portfolio</span></p>
+        <h1><span data-en="Hello, I'm" data-ur="السلام علیکم، میں ہوں">Hello, I'm</span> <span class="gradient-text" data-en="Muddasar Iqbal" data-ur="مدثر اقبال">Muddasar Iqbal</span></h1>
+        <p class="lead" data-en="Welcome to my portfolio. Explore my profile, educational background and a live information dashboard with Pakistan time, weather, news and exchange rates." data-ur="میرے پورٹ فولیو میں خوش آمدید۔ یہاں میرا تعارف، تعلیمی پس منظر اور پاکستان کا وقت، موسم، خبریں اور کرنسی ریٹس کی لائیو معلومات دیکھیں۔">Welcome to my portfolio. Explore my profile, educational background and a live information dashboard with Pakistan time, weather, news and exchange rates.</p>
+        <div class="hero-tags"><span class="tag"><i class="fa-solid fa-location-dot"></i> <span data-en="Faisalabad, Pakistan" data-ur="فیصل آباد، پاکستان">Faisalabad, Pakistan</span></span><span class="tag"><i class="fa-solid fa-graduation-cap"></i> <span data-en="Cadet College Faisalabad" data-ur="کیڈٹ کالج فیصل آباد">Cadet College Faisalabad</span></span><span class="tag"><i class="fa-solid fa-globe"></i> <span data-en="English / Urdu" data-ur="انگریزی / اردو">English / Urdu</span></span></div>
+      </div>
+
+      <div class="section-heading"><div><h2 data-en="Live Information Center" data-ur="لائیو معلوماتی مرکز">Live Information Center</h2><p data-en="Live clock with automatically refreshed weather, headlines, currency rates and Pakistan stock market." data-ur="لائیو گھڑی، خودکار موسم، خبریں، کرنسی ریٹس اور پاکستان اسٹاک مارکیٹ۔">Live clock with automatically refreshed weather, headlines, currency rates and Pakistan stock market.</p><div class="live-status-line"><span class="live-dot"></span><span id="liveOverallStatus" aria-live="polite" data-en="Starting live feeds…" data-ur="لائیو معلومات شروع ہو رہی ہیں…">Starting live feeds…</span></div></div></div>
+      <div class="grid">
+        <article class="card">
+          <div class="card-head"><span class="icon-box"><i class="fa-solid fa-clock"></i></span><div><h3 data-en="Pakistan Time" data-ur="پاکستان کا وقت">Pakistan Time</h3><p class="subtle" data-en="Asia/Karachi" data-ur="پاکستان کا معیاری وقت">Asia/Karachi</p></div></div>
+          <div class="metric" id="clockDisplay">--:--:--</div><div class="small-metric" id="gregorianDisplay">Loading date…</div><div class="status" id="islamicDisplay"> </div>
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="icon-box"><i class="fa-solid fa-cloud-sun"></i></span><div><h3 data-en="Faisalabad Weather" data-ur="فیصل آباد کا موسم">Faisalabad Weather</h3><p class="subtle" data-en="Current conditions" data-ur="موجودہ صورتحال">Current conditions</p></div></div>
+          <div class="metric" id="weatherTemp">Loading…</div><div class="small-metric" id="weatherCondition">—</div><div class="status" id="weatherDetails">Fetching live weather…</div>
+        </article>
+        <article class="card">
+          <div class="card-head"><span class="icon-box"><i class="fa-solid fa-arrows-rotate"></i></span><div><h3 data-en="Currency Rates" data-ur="کرنسی ریٹس">Currency Rates</h3><p class="subtle" data-en="Indicative rates against PKR" data-ur="پاکستانی روپے کے مقابلے میں اندازاً ریٹس">Indicative rates against PKR</p></div></div>
+          <ul class="list" id="currencyList"><li>Loading exchange rates…</li></ul><div class="status" id="currencyStatus"></div>
+        </article>
+        <article class="card wide">
+          <div class="card-head"><span class="icon-box"><i class="fa-solid fa-newspaper"></i></span><div><h3 data-en="Latest Pakistan News" data-ur="پاکستان کی تازہ خبریں">Latest Pakistan News</h3><p class="subtle" data-en="Headlines from a live news search" data-ur="لائیو نیوز سرچ سے سرخیاں">Headlines from a live news search</p></div></div>
+          <ul class="list" id="newsList"><li>Loading latest headlines…</li></ul><div class="status" id="newsStatus"></div>
+        </article>
+        <article class="card full stock-card">
+          <div class="card-head"><span class="icon-box"><i class="fa-solid fa-chart-line"></i></span><div><h3 data-en="Pakistan Stock Exchange — KSE 100" data-ur="پاکستان اسٹاک ایکسچینج — کے ایس ای 100">Pakistan Stock Exchange — KSE 100</h3><p class="subtle" data-en="Market chart provided by TradingView" data-ur="مارکیٹ چارٹ TradingView فراہم کرتا ہے">Market chart provided by TradingView</p></div><span class="market-pill"><span class="live-dot"></span><span data-en="Market feed" data-ur="مارکیٹ فیڈ">Market feed</span></span></div>
+          <div id="tradingviewKse100" class="tradingview-box" aria-label="KSE 100 stock market chart"></div>
+          <div class="status" data-en="Market data can be delayed and may not represent an exchange-authorized real-time feed. Check the official PSX portal for confirmation." data-ur="مارکیٹ ڈیٹا تاخیر سے آ سکتا ہے اور ایکسچینج کا مجاز ریئل ٹائم فیڈ ضروری نہیں۔ تصدیق کے لیے PSX کا سرکاری پورٹل دیکھیں۔">Market data can be delayed and may not represent an exchange-authorized real-time feed. Check the official PSX portal for confirmation.</div>
+          <div class="actions"><a class="btn" href="https://dps.psx.com.pk/indices" target="_blank" rel="noopener noreferrer" data-en="Official PSX Indices" data-ur="سرکاری PSX انڈیکس">Official PSX Indices</a><a class="btn" href="https://www.tradingview.com/symbols/PSX-KSE100/" target="_blank" rel="noopener noreferrer" data-en="Open full chart" data-ur="مکمل چارٹ کھولیں">Open full chart</a></div>
+        </article>
+      </div>
+      <p class="notice" data-en="Live data depends on third-party services and your internet connection. Currency values are indicative and may differ from bank or open-market rates." data-ur="لائیو معلومات انٹرنیٹ اور بیرونی سروسز پر منحصر ہیں۔ کرنسی ریٹس اندازاً ہیں اور بینک یا اوپن مارکیٹ کے ریٹس سے مختلف ہو سکتے ہیں۔">Live data depends on third-party services and your internet connection. Currency values are indicative and may differ from bank or open-market rates.</p>
+    </section>
+
+    <section id="page-about" class="page-section">
+      <div class="section-heading"><div><h2 data-en="About Me" data-ur="میرے بارے میں">About Me</h2><p data-en="A short introduction" data-ur="مختصر تعارف">A short introduction</p></div></div>
+      <div class="grid">
+        <article class="card wide"><div class="card-head"><span class="icon-box"><i class="fa-solid fa-user"></i></span><h3 data-en="Profile" data-ur="پروفائل">Profile</h3></div>
+          <p data-en="Hello! I am Muddasar Iqbal, based in Faisalabad, Punjab, Pakistan. This portfolio brings together my introduction, educational background and useful live information in one place." data-ur="السلام علیکم! میں مدثر اقبال ہوں اور فیصل آباد، پنجاب، پاکستان میں رہتا ہوں۔ اس پورٹ فولیو میں میرا تعارف، تعلیمی پس منظر اور مفید لائیو معلومات ایک جگہ موجود ہیں۔">Hello! I am Muddasar Iqbal, based in Faisalabad, Punjab, Pakistan. This portfolio brings together my introduction, educational background and useful live information in one place.</p>
+        </article>
+        <article class="card"><div class="card-head"><span class="icon-box"><i class="fa-solid fa-address-card"></i></span><h3 data-en="Quick Details" data-ur="بنیادی معلومات">Quick Details</h3></div>
+          <div class="info-row"><i class="fa-solid fa-location-dot"></i><span><strong data-en="Location" data-ur="مقام">Location</strong><br><span class="subtle">Faisalabad, Punjab, Pakistan</span></span></div>
+          <div class="info-row"><i class="fa-solid fa-language"></i><span><strong data-en="Languages" data-ur="زبانیں">Languages</strong><br><span class="subtle">English / Urdu</span></span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="page-education" class="page-section">
+      <div class="section-heading"><div><h2 data-en="Education" data-ur="تعلیم">Education</h2><p data-en="Educational background" data-ur="تعلیمی پس منظر">Educational background</p></div></div>
+      <div class="grid">
+        <article class="card wide"><div class="card-head"><span class="icon-box"><i class="fa-solid fa-graduation-cap"></i></span><h3 data-en="Cadet College Faisalabad" data-ur="کیڈٹ کالج فیصل آباد">Cadet College Faisalabad</h3></div>
+          <p data-en="My educational affiliation is Cadet College Faisalabad, Pakistan." data-ur="میرا تعلیمی ادارہ کیڈٹ کالج فیصل آباد، پاکستان ہے۔">My educational affiliation is Cadet College Faisalabad, Pakistan.</p>
+          <p class="subtle" style="margin-top:10px" data-en="Add your class, achievements, certificates and activities here when you are ready to share them." data-ur="اپنی جماعت، کامیابیاں، اسناد اور سرگرمیاں شیئر کرنے کے لیے یہاں شامل کر سکتے ہیں۔">Add your class, achievements, certificates and activities here when you are ready to share them.</p>
+        </article>
+        <article class="card"><div class="card-head"><span class="icon-box"><i class="fa-solid fa-star"></i></span><h3 data-en="Goals & Skills" data-ur="مقاصد اور مہارتیں">Goals & Skills</h3></div>
+          <p class="subtle" data-en="Use this area to highlight your interests, skills and future goals." data-ur="اپنی دلچسپیاں، مہارتیں اور مستقبل کے مقاصد یہاں لکھیں۔">Use this area to highlight your interests, skills and future goals.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">© <span id="yearDisplay">2026</span> Muddasar Iqbal · <span data-en="Made with care" data-ur="محبت سے بنایا گیا">Made with care</span></footer>
+</div>
+
+
+
+<script>
+  let activeLang = 'en';
+  const $ = id => document.getElementById(id);
+  const timezone = 'Asia/Karachi';
+
+  function showPage(pageName) {
+    document.querySelectorAll('.page-section').forEach(section => section.classList.remove('active-page'));
+    document.querySelectorAll('.nav-links .btn').forEach(button => {
+      if (button.id !== 'langToggleBtn') button.classList.remove('active');
+    });
+    const page = $('page-' + pageName);
+    if (page) page.classList.add('active-page');
+    const nav = ({home:'navHome',about:'navAbout',education:'navEdu'})[pageName];
+    if (nav) $(nav).classList.add('active');
+  }
+
+  function switchLanguage() {
+    activeLang = activeLang === 'en' ? 'ur' : 'en';
+    document.documentElement.lang = activeLang;
+    document.documentElement.dir = activeLang === 'ur' ? 'rtl' : 'ltr';
+    $('langToggleBtn').textContent = activeLang === 'ur' ? 'English' : 'اردو';
+    document.querySelectorAll('[data-en][data-ur]').forEach(el => {
+      el.textContent = el.getAttribute('data-' + activeLang);
+    });
+    document.querySelectorAll('[data-placeholder-en][data-placeholder-ur]').forEach(el => {
+      el.placeholder = el.getAttribute('data-placeholder-' + activeLang);
+    });
+    updateClock();
+    if (lastWeather) renderWeather(lastWeather);
+    // Refresh dynamic labels and lists so the selected language applies immediately.
+    refreshLiveData();
+  }
+
+  function updateClock() {
+    const now = new Date();
+    $('clockDisplay').textContent = new Intl.DateTimeFormat(activeLang === 'ur' ? 'ur-PK' : 'en-PK', {
+      timeZone: timezone, hour:'2-digit', minute:'2-digit', second:'2-digit', hour12:true
+    }).format(now);
+    $('gregorianDisplay').textContent = new Intl.DateTimeFormat(activeLang === 'ur' ? 'ur-PK' : 'en-PK', {
+      timeZone: timezone, weekday:'short', day:'numeric', month:'short', year:'numeric'
+    }).format(now);
+    try {
+      $('islamicDisplay').textContent = new Intl.DateTimeFormat(activeLang === 'ur' ? 'ur-PK-u-ca-islamic' : 'en-PK-u-ca-islamic', {
+        timeZone: timezone, day:'numeric', month:'long', year:'numeric'
+      }).format(now);
+    } catch (_) {
+      $('islamicDisplay').textContent = activeLang === 'ur' ? 'اسلامی تاریخ دستیاب نہیں' : 'Islamic date unavailable';
+    }
+    $('yearDisplay').textContent = new Intl.DateTimeFormat('en', {timeZone:timezone,year:'numeric'}).format(now);
+  }
+  updateClock();
+  setInterval(updateClock, 1000);
+
+  async function fetchWithTimeout(url, timeoutMs = 12000, options = {}) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    try { return await fetch(url, { ...options, signal: controller.signal }); }
+    finally { clearTimeout(timer); }
+  }
+  // Keep the last successful result on this visitor's device so a temporary API outage
+  // does not make the whole live panel disappear. Cached values are clearly labelled.
+  function saveLiveCache(key, data) {
+    try { localStorage.setItem('muddasar-live-' + key, JSON.stringify({savedAt:Date.now(), data})); } catch (_) {}
+  }
+  function readLiveCache(key, maxAgeMs = 7 * 24 * 60 * 60 * 1000) {
+    try {
+      const saved = JSON.parse(localStorage.getItem('muddasar-live-' + key) || 'null');
+      if (saved && saved.data && Date.now() - saved.savedAt < maxAgeMs) return saved;
+    } catch (_) {}
+    return null;
+  }
+  function updatedLabel(timestamp) {
+    const when = new Date(timestamp).toLocaleTimeString(activeLang === 'ur' ? 'ur-PK' : 'en-PK', {timeZone:timezone, hour:'2-digit', minute:'2-digit'});
+    return (activeLang === 'ur' ? 'آخری اپڈیٹ: ' : 'Updated: ') + when;
+  }
+  async function fetchJsonWithRetry(url, timeoutMs = 12000, options = {}, attempts = 2) {
+    let lastError;
+    for (let attempt = 0; attempt < attempts; attempt++) {
+      try {
+        const response = await fetchWithTimeout(url, timeoutMs, options);
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        return await response.json();
+      } catch (error) {
+        lastError = error;
+        if (attempt + 1 < attempts) await new Promise(resolve => setTimeout(resolve, 800 * (attempt + 1)));
+      }
+    }
+    throw lastError || new Error('Could not load data');
+  }
+
+  let lastWeather = null;
+  function weatherText(code) {
+    const en = {0:'Clear sky',1:'Mainly clear',2:'Partly cloudy',3:'Overcast',45:'Fog',48:'Depositing rime fog',51:'Light drizzle',53:'Drizzle',55:'Dense drizzle',61:'Slight rain',63:'Moderate rain',65:'Heavy rain',71:'Light snow',73:'Snow',75:'Heavy snow',80:'Rain showers',81:'Rain showers',82:'Heavy rain showers',95:'Thunderstorm',96:'Thunderstorm with hail',99:'Severe thunderstorm'};
+    const ur = {0:'صاف آسمان',1:'زیادہ تر صاف',2:'جزوی ابر آلود',3:'ابر آلود',45:'دھند',48:'دھند',51:'ہلکی بوندا باندی',53:'بوندا باندی',55:'تیز بوندا باندی',61:'ہلکی بارش',63:'درمیانی بارش',65:'تیز بارش',71:'ہلکی برف باری',73:'برف باری',75:'تیز برف باری',80:'بارش کے جھکڑ',81:'بارش کے جھکڑ',82:'تیز بارش',95:'گرج چمک',96:'اولوں کے ساتھ گرج چمک',99:'شدید گرج چمک'};
+    const map = activeLang === 'ur' ? ur : en;
+    return map[code] || (activeLang === 'ur' ? 'موسم کی کیفیت' : 'Weather conditions');
+  }
+  function renderWeather(data) {
+    const current = data.current;
+    $('weatherTemp').textContent = `${Math.round(current.temperature_2m)}°C`;
+    $('weatherCondition').textContent = weatherText(current.weather_code);
+    const feels = current.apparent_temperature;
+    $('weatherDetails').textContent = `${activeLang === 'ur' ? 'محسوس درجہ حرارت' : 'Feels like'}: ${Math.round(feels)}°C · ${activeLang === 'ur' ? 'نمی' : 'Humidity'}: ${current.relative_humidity_2m}%`;
+  }
+  async function fetchWeather() {
+    $('weatherTemp').textContent = activeLang === 'ur' ? 'لوڈ ہو رہا ہے…' : 'Loading…';
+    try {
+      const url = 'https://api.open-meteo.com/v1/forecast?latitude=31.4504&longitude=73.1350&current=temperature_2m,relative_humidity_2m,apparent_temperature,weather_code&timezone=Asia%2FKarachi';
+      const data = await fetchJsonWithRetry(url, 12000, {cache:'no-store'}, 2);
+      if (!data.current || typeof data.current.temperature_2m !== 'number') throw new Error('Invalid weather response');
+      lastWeather = data;
+      saveLiveCache('weather', data);
+      renderWeather(data);
+      $('weatherDetails').textContent += ' · ' + (activeLang === 'ur' ? 'تازہ ڈیٹا' : 'Current data');
+    } catch (_) {
+      const cached = readLiveCache('weather');
+      if (cached) {
+        lastWeather = cached.data;
+        renderWeather(cached.data);
+        $('weatherDetails').textContent += ' · ' + updatedLabel(cached.savedAt) + (activeLang === 'ur' ? ' (محفوظ شدہ ڈیٹا)' : ' (saved data)');
+      } else {
+        $('weatherTemp').textContent = activeLang === 'ur' ? 'دستیاب نہیں' : 'Unavailable';
+        $('weatherCondition').textContent = activeLang === 'ur' ? 'موسم حاصل نہیں ہو سکا' : 'Could not load weather';
+        $('weatherDetails').textContent = activeLang === 'ur' ? 'انٹرنیٹ چیک کریں؛ دوبارہ خود کوشش ہوگی۔' : 'Check your internet; this will retry automatically.';
+      }
+    }
+  }
+
+  async function fetchCurrency() {
+    const list = $('currencyList');
+    list.innerHTML = `<li>${activeLang === 'ur' ? 'ریٹس لوڈ ہو رہے ہیں…' : 'Loading exchange rates…'}</li>`;
+    function renderCurrency(data, savedAt, cached = false) {
+      const rates = data.rates || {};
+      const entries = [
+        ['USD → PKR', rates.PKR ? `₨ ${Number(rates.PKR).toLocaleString('en-PK',{maximumFractionDigits:2})}` : null],
+        ['USD → GBP', rates.GBP ? `£ ${Number(rates.GBP).toLocaleString('en-GB',{maximumFractionDigits:4})}` : null],
+        ['USD → EUR', rates.EUR ? `€ ${Number(rates.EUR).toLocaleString('en-IE',{maximumFractionDigits:4})}` : null]
+      ].filter(item => item[1]);
+      if (!entries.length) throw new Error('No rates returned');
+      list.innerHTML = entries.map(([label,value]) => `<li><strong>${label}</strong><div class="small-metric">${value}</div></li>`).join('');
+      const date = data.time_last_update_utc ? new Date(data.time_last_update_utc).toLocaleDateString(activeLang === 'ur' ? 'ur-PK' : 'en-PK') : '—';
+      $('currencyStatus').textContent = `${activeLang === 'ur' ? 'ڈیٹا تاریخ' : 'Rate date'}: ${date} · ${cached ? updatedLabel(savedAt) + (activeLang === 'ur' ? ' (محفوظ شدہ)' : ' (cached)') : (activeLang === 'ur' ? 'تازہ ریٹس' : 'Latest available rates')}`;
+    }
+    try {
+      let data;
+      try {
+        data = await fetchJsonWithRetry('https://open.er-api.com/v6/latest/USD', 12000, {cache:'no-store'}, 2);
+        if (data.result !== 'success' || !data.rates) throw new Error('Primary exchange service returned no rates');
+      } catch (primaryError) {
+        // Backup provider. Frankfurter rates are reference rates and are not real-time market quotes.
+        data = await fetchJsonWithRetry('https://api.frankfurter.app/latest?from=USD&to=PKR,GBP,EUR', 12000, {cache:'no-store'}, 2);
+        if (!data.rates) throw primaryError;
+        data.time_last_update_utc = data.date + 'T00:00:00Z';
+      }
+      saveLiveCache('currency', data);
+      renderCurrency(data, Date.now(), false);
+    } catch (_) {
+      const cached = readLiveCache('currency', 14 * 24 * 60 * 60 * 1000);
+      if (cached) { try { renderCurrency(cached.data, cached.savedAt, true); return; } catch (_) {} }
+      list.innerHTML = `<li>${activeLang === 'ur' ? 'کرنسی ریٹس فی الحال دستیاب نہیں۔' : 'Currency rates are temporarily unavailable.'}</li>`;
+      $('currencyStatus').textContent = activeLang === 'ur' ? 'انٹرنیٹ چیک کریں؛ دوبارہ خود کوشش ہوگی۔' : 'Check your internet; this will retry automatically.';
+    }
+  }
+
+  async function fetchNews() {
+    const list = $('newsList');
+    list.innerHTML = `<li>${activeLang === 'ur' ? 'تازہ خبریں تلاش ہو رہی ہیں…' : 'Searching latest headlines…'}</li>`;
+    function renderNews(data, savedAt, cached = false) {
+      const articles = (data.articles || []).filter(article => article.title && article.url).slice(0,6);
+      if (!articles.length) throw new Error('No articles returned');
+      list.innerHTML = articles.map(article => {
+        const title = escapeHtml(article.title);
+        const domain = escapeHtml(article.domain || 'News source');
+        const date = article.seendate ? formatNewsDate(article.seendate) : '';
+        return `<li><a href="${safeUrl(article.url)}" target="_blank" rel="noopener noreferrer">${title}</a><small>${domain}${date ? ' · ' + date : ''}</small></li>`;
+      }).join('');
+      $('newsStatus').textContent = (activeLang === 'ur' ? 'ماخذ: GDELT نیوز سرچ' : 'Source: GDELT news search') + (cached ? ' · ' + updatedLabel(savedAt) + (activeLang === 'ur' ? ' (محفوظ شدہ خبریں)' : ' (cached headlines)') : ' · ' + updatedLabel(Date.now()));
+    }
+    try {
+      let data;
+      try {
+        const query = encodeURIComponent('Pakistan');
+        const url = `https://api.gdeltproject.org/api/v2/doc/doc?query=${query}&mode=ArtList&format=json&sort=DateDesc&maxrecords=6`;
+        data = await fetchJsonWithRetry(url, 15000, {cache:'no-store'}, 2);
+        if (!data.articles || !data.articles.length) throw new Error('No GDELT articles returned');
+      } catch (primaryError) {
+        // Backup headline feed. It may be delayed or unavailable independently of this site.
+        const rss = encodeURIComponent('https://news.google.com/rss/search?q=Pakistan&hl=en-PK&gl=PK&ceid=PK:en');
+        const backup = await fetchJsonWithRetry(`https://api.rss2json.com/v1/api.json?rss_url=${rss}`, 15000, {cache:'no-store'}, 2);
+        if (!Array.isArray(backup.items) || !backup.items.length) throw primaryError;
+        data = {articles: backup.items.slice(0,6).map(item => ({title:item.title,url:item.link,domain:(item.author || 'Google News'),seendate:item.pubDate ? item.pubDate.replace(/[-: ]/g,'').slice(0,15) : ''}))};
+      }
+      saveLiveCache('news', data);
+      renderNews(data, Date.now(), false);
+    } catch (_) {
+      const cached = readLiveCache('news', 48 * 60 * 60 * 1000);
+      if (cached) { try { renderNews(cached.data, cached.savedAt, true); return; } catch (_) {} }
+      // Final fallback: show useful news links even when both live APIs fail.
+      // These are live search links, not fabricated headlines.
+      const fallbackNews = activeLang === 'ur' ? [
+        {title:'پاکستان کی تازہ خبریں کھولیں',url:'https://news.google.com/search?q=Pakistan&hl=ur&gl=PK&ceid=PK%3Aur',domain:'Google News'},
+        {title:'فیصل آباد کی خبریں',url:'https://news.google.com/search?q=Faisalabad&hl=en-PK&gl=PK&ceid=PK%3Aen',domain:'Google News'},
+        {title:'دنیا بھر کی تازہ خبریں',url:'https://news.google.com/topstories?hl=ur&gl=PK&ceid=PK%3Aur',domain:'Google News'},
+        {title:'کھیلوں کی تازہ خبریں',url:'https://news.google.com/search?q=Pakistan%20sports&hl=en-PK&gl=PK&ceid=PK%3Aen',domain:'Google News'},
+        {title:'کاروبار اور معیشت کی خبریں',url:'https://news.google.com/search?q=Pakistan%20business&hl=en-PK&gl=PK&ceid=PK%3Aen',domain:'Google News'}
+      ] : [
+        {title:'Open latest Pakistan headlines',url:'https://news.google.com/search?q=Pakistan&hl=en-PK&gl=PK&ceid=PK%3Aen',domain:'Google News'},
+        {title:'Faisalabad local news',url:'https://news.google.com/search?q=Faisalabad&hl=en-PK&gl=PK&ceid=PK%3Aen',domain:'Google News'},
+        {title:'Latest world headlines',url:'https://news.google.com/topstories?hl=en-PK&gl=PK&ceid=PK%3Aen',domain:'Google News'},
+        {title:'Pakistan sports news',url:'https://news.google.com/search?q=Pakistan%20sports&hl=en-PK&gl=PK&ceid=PK%3Aen',domain:'Google News'},
+        {title:'Pakistan business and economy',url:'https://news.google.com/search?q=Pakistan%20business&hl=en-PK&gl=PK&ceid=PK%3Aen',domain:'Google News'}
+      ];
+      list.innerHTML = fallbackNews.map(article => `<li><a href="${safeUrl(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(article.title)}</a><small>${article.domain}</small></li>`).join('');
+      $('newsStatus').textContent = activeLang === 'ur' ? 'عارضی خبری لنکس دکھائے جا رہے ہیں؛ تازہ سرخیاں کھولنے کے لیے لنک دبائیں۔ لائیو فیڈ دوبارہ کوشش کرے گی۔' : 'Temporary news links shown. Open a link for current headlines; the live feed will retry automatically.';
+    }
+  }
+
+  function escapeHtml(value) {
+    return String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  }
+  function safeUrl(value) {
+    try { const url = new URL(value); return url.protocol === 'https:' ? url.href : '#'; } catch (_) { return '#'; }
+  }
+  function formatNewsDate(value) {
+    const match = String(value).match(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})/);
+    if (!match) return '';
+    return `${match[1]}-${match[2]}-${match[3]} ${match[4]}:${match[5]}`;
+  }
+
+  // TradingView supplies the KSE-100 chart. It may be delayed depending on its data provider.
+  function renderStockChart() {
+    const host = $('tradingviewKse100');
+    if (!host) return;
+    host.innerHTML = '<div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>';
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js';
+    script.async = true;
+    script.textContent = JSON.stringify({
+      autosize: true,
+      symbol: 'PSX:KSE100',
+      interval: 'D',
+      timezone: 'Asia/Karachi',
+      theme: 'light',
+      style: '1',
+      locale: 'en',
+      allow_symbol_change: true,
+      calendar: false,
+      support_host: 'https://www.tradingview.com'
+    });
+    host.appendChild(script);
+  }
+  renderStockChart();
+
+  let refreshInProgress = false;
+  async function refreshLiveData() {
+    if (refreshInProgress) return;
+    refreshInProgress = true;
+    if ($('liveOverallStatus')) $('liveOverallStatus').textContent = activeLang === 'ur' ? 'تمام لائیو معلومات چیک ہو رہی ہیں…' : 'Checking all live feeds…';
+    $('newsStatus').textContent = activeLang === 'ur' ? 'اپڈیٹ ہو رہا ہے…' : 'Updating…';
+    $('currencyStatus').textContent = activeLang === 'ur' ? 'اپڈیٹ ہو رہا ہے…' : 'Updating…';
+    try {
+      await Promise.allSettled([fetchWeather(), fetchCurrency(), fetchNews()]);
+      const errors = ['weatherDetails','currencyStatus','newsStatus'].some(id => /unavailable|check your internet|انٹرنیٹ چیک|دستیاب نہیں|لوڈ نہیں ہو سکیں/i.test($(id).textContent));
+      if ($('liveOverallStatus')) $('liveOverallStatus').textContent = errors
+        ? (activeLang === 'ur' ? 'کچھ فیڈز دستیاب نہیں؛ خودکار دوبارہ کوشش جاری رہے گی۔' : 'Some feeds unavailable; automatic retry remains enabled.')
+        : (activeLang === 'ur' ? 'لائیو فیڈز چیک ہو گئیں · ' : 'Feeds checked · ') + new Date().toLocaleTimeString(activeLang === 'ur' ? 'ur-PK' : 'en-PK', {timeZone:timezone,hour:'2-digit',minute:'2-digit',second:'2-digit'});
+    } finally {
+      refreshInProgress = false;
+    }
+  }
+  refreshLiveData();
+  // Clock ticks every second; external data is refreshed every 3 minutes and when the tab returns.
+  setInterval(() => { if (!document.hidden) refreshLiveData(); }, 3 * 60 * 1000);
+  window.addEventListener('online', refreshLiveData);
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') refreshLiveData();
+  });
+</script>
+
+  <!-- Floating WhatsApp contact button and popup -->
+  <style>
+    .wa-float{position:fixed;right:22px;bottom:22px;z-index:9999;display:flex;align-items:center;gap:10px}
+    [dir="rtl"] .wa-float{right:auto;left:22px}
+    .wa-main{width:60px;height:60px;border:0;border-radius:50%;display:grid;place-items:center;background:#25D366;color:#fff;font-size:1.8rem;box-shadow:0 10px 28px rgba(37,211,102,.4);transition:transform .2s,box-shadow .2s}
+    .wa-main:hover{transform:translateY(-3px) scale(1.04);box-shadow:0 14px 32px rgba(37,211,102,.5)}
+    .wa-hint{background:var(--card);color:var(--ink);border:1px solid var(--border);box-shadow:var(--shadow);border-radius:12px;padding:8px 12px;font-size:.83rem;font-weight:700}
+    .wa-popup{position:fixed;right:22px;bottom:94px;z-index:9999;width:min(340px,calc(100vw - 32px));border:1px solid var(--border);border-radius:20px;overflow:hidden;background:var(--card);color:var(--ink);box-shadow:0 22px 65px rgba(0,0,0,.22);display:none}
+    [dir="rtl"] .wa-popup{right:auto;left:22px}
+    .wa-popup.open{display:block;animation:waIn .22s ease}
+    @keyframes waIn{from{opacity:0;transform:translateY(10px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
+    .wa-popup-head{display:flex;align-items:center;gap:12px;background:#128C7E;color:white;padding:16px}
+    .wa-popup-head .wa-logo{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:#25D366;font-size:1.4rem}
+    .wa-popup-head strong{display:block;font-size:1rem}
+    .wa-popup-head small{opacity:.9}
+    .wa-close{margin-left:auto;border:0;background:transparent;color:white;font-size:1.25rem;padding:4px 8px}
+    [dir="rtl"] .wa-close{margin-left:0;margin-right:auto}
+    .wa-popup-body{padding:18px}
+    .wa-popup-body p{font-size:.9rem;color:var(--muted);margin-bottom:12px}
+    .wa-field{display:block;width:100%;padding:11px 12px;border:1px solid var(--border);border-radius:11px;background:var(--bg);color:var(--ink);font:inherit;margin:8px 0 12px}
+    .wa-send{width:100%;background:#25D366;color:#083b20;border:0;font-weight:800}
+    .wa-note{font-size:.75rem!important;margin-top:10px!important;margin-bottom:0!important}
+    @media(max-width:520px){.wa-hint{display:none}.wa-float{right:14px;bottom:14px}[dir="rtl"] .wa-float{right:auto;left:14px}.wa-popup{right:14px;bottom:84px}[dir="rtl"] .wa-popup{right:auto;left:14px}.wa-main{width:56px;height:56px}}
+  </style>
+
+  <section class="wa-popup" id="waPopup" role="dialog" aria-modal="false" aria-labelledby="waTitle">
+    <div class="wa-popup-head">
+      <span class="wa-logo"><i class="fa-brands fa-whatsapp"></i></span>
+      <div><strong id="waTitle" data-en="Chat on WhatsApp" data-ur="واٹس ایپ پر رابطہ کریں">Chat on WhatsApp</strong><small data-en="Usually replies as available" data-ur="دستیابی کے مطابق جواب">Usually replies as available</small></div>
+      <button class="wa-close" onclick="toggleWhatsApp(false)" aria-label="Close WhatsApp popup">×</button>
+    </div>
+    <div class="wa-popup-body">
+      <p data-en="Send a message to Muddasar Iqbal. Enter your message below and WhatsApp will open to send it." data-ur="مدثر اقبال کو پیغام بھیجیں۔ نیچے پیغام لکھیں، پھر واٹس ایپ کھل جائے گا۔">Send a message to Muddasar Iqbal. Enter your message below and WhatsApp will open to send it.</p>
+      <label for="waMessage" data-en="Your message" data-ur="آپ کا پیغام">Your message</label>
+      <textarea id="waMessage" class="wa-field" rows="3" data-placeholder-en="Assalam-o-Alaikum, I visited your portfolio…" data-placeholder-ur="السلام علیکم، میں نے آپ کا پورٹ فولیو دیکھا…" placeholder="Assalam-o-Alaikum, I visited your portfolio…"></textarea>
+      <button class="wa-send" onclick="sendWhatsAppMessage()"><i class="fa-brands fa-whatsapp"></i> <span data-en="Continue to WhatsApp" data-ur="واٹس ایپ پر جائیں">Continue to WhatsApp</span></button>
+      <p class="wa-note" data-en="WhatsApp will open with your message so you can review it before sending." data-ur="پیغام تیار ہونے کے بعد واٹس ایپ کھلے گا، جہاں آپ بھیجنے سے پہلے اسے دیکھ سکتے ہیں۔">WhatsApp will open with your message so you can review it before sending.</p>
+    </div>
+  </section>
+  <div class="wa-float">
+    <span class="wa-hint" data-en="Need help? Chat with me" data-ur="مدد چاہیے؟ رابطہ کریں">Need help? Chat with me</span>
+    <button class="wa-main" onclick="toggleWhatsApp()" aria-label="Open WhatsApp contact popup" aria-controls="waPopup" aria-expanded="false"><i class="fa-brands fa-whatsapp"></i></button>
+  </div>
+  <script>
+    // IMPORTANT: Replace this with the WhatsApp number including country code, digits only.
+    // Pakistan example format: 923001234567 (do not include +, spaces or dashes).
+    const WHATSAPP_NUMBER = "923186717283";
+    function toggleWhatsApp(forceState) {
+      const popup = document.getElementById('waPopup');
+      const open = typeof forceState === 'boolean' ? forceState : !popup.classList.contains('open');
+      popup.classList.toggle('open', open);
+      const button = document.querySelector('.wa-main');
+      if (button) button.setAttribute('aria-expanded', String(open));
+      if (open) setTimeout(() => document.getElementById('waMessage')?.focus(), 50);
+    }
+    function sendWhatsAppMessage() {
+      if (!/^\d{10,15}$/.test(WHATSAPP_NUMBER) || WHATSAPP_NUMBER === "923001234567") {
+        alert(activeLang === 'ur'
+          ? 'براہِ کرم کوڈ میں WHATSAPP_NUMBER کی جگہ اپنا درست واٹس ایپ نمبر درج کریں۔'
+          : 'Please replace WHATSAPP_NUMBER in the code with your real WhatsApp number first.');
+        return;
+      }
+      const field = document.getElementById('waMessage');
+      const fallback = activeLang === 'ur' ? 'السلام علیکم، میں نے آپ کا پورٹ فولیو دیکھا۔' : 'Assalam-o-Alaikum, I visited your portfolio.';
+      const message = (field.value.trim() || fallback);
+      const url = 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(message);
+      window.open(url, '_blank', 'noopener,noreferrer');
+    }
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') toggleWhatsApp(false);
+    });
+  </script>
+
+</body>
+</html>
